@@ -256,6 +256,7 @@ service:
 ## ref: http://kubernetes.io/docs/user-guide/persistent-volumes/
 ##
 persistence:
+  sharedroot: true
   # Nextcloud Data (/var/www/html)
   enabled: false
   annotations: {}
